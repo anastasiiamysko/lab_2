@@ -1,13 +1,22 @@
 function Skills() {
+  const skillsList = [
+    'HTML5 & CSS3',
+    'JavaScript (ES6+)',
+    'React.js',
+    'Git & GitHub',
+    'Vite',
+    'Адаптивна верстка',
+    'VS Code'
+  ];
+
   return (
-    <section>
+    <section className="card">
       <h2>Навички</h2>
-      <ul>
-        <li>HTML5 / CSS3</li>
-        <li>JavaScript (ES6+)</li>
-        <li>React / Vite</li>
-        <li>Git / GitHub</li>
-      </ul>
+      <div className="skills-tags">
+        {skillsList.map((skill, index) => (
+          <span key={index} className="tag">{skill}</span>
+        ))}
+      </div>
     </section>
   );
 }

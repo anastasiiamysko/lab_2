@@ -1,18 +1,23 @@
-import './App.css'
-import Header from './components/Header'
-import About from './components/About'
-import Skills from './components/Skills'
-import Experience from './components/Experience'
+import Header from './components/Header';
+import About from './components/About';
+import Skills from './components/Skills';
+import Experience from './components/Experience';
+import './App.css';
 
 function App() {
   return (
-    <div className="cv-container">
+    <div className="app-container">
       <Header />
-      <About />
-      <Skills />
-      <Experience />
+      <main>
+        <About />
+        <Skills />
+        <Experience />
+      </main>
+      <footer className="footer">
+        <p>© 2026 CV Project. Створено на React & Vite.</p>
+      </footer>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
