@@ -5,10 +5,10 @@ function Header() {
     <header className="header-card">
       <img src={heroImg} alt="Аватар" className="avatar" />
       <div className="header-info">
-        <h1>Мисько Анастасія</h1>
+        <h1>Mysko Anastasiia</h1>
         <p className="subtitle">Frontend Developer / Student</p>
         <div className="contacts">
-          <span>📍 Львів, Україна</span>
+          <span>📍 Lviv, Ukraine</span>
           
           <a href="mailto:anastasiia.mysko.kb.2025@lpnu.ua" className="contact-link">
             ✉️ anastasiia.mysko.kb.2025@lpnu.ua

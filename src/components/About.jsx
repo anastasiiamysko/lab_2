@@ -1,11 +1,11 @@
 function About() {
   return (
     <section className="card">
-      <h2>Про мене</h2>
+      <h2>About</h2>
       <p>
-        Студентка, розробниця-початківець. Вивчаю сучасні вебтехнології,
-        зокрема HTML, CSS, JavaScript та React. Прагну розвиватися у напрямку
-        створення зручних та привабливих користувацьких інтерфейсів.
+        Student and aspiring developer. Learning modern web technologies, 
+        including HTML, CSS, JavaScript, and React. Passionate about creating 
+        user-friendly and attractive user interfaces.
       </p>
     </section>
   );
