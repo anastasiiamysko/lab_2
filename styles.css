@@ -1,0 +1,96 @@
+/* Явне керування блоковою моделлю */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Селектор тегу */
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+/* Селектор ID */
+#main-header {
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 2.5rem 1rem;
+  text-align: center;
+  border-bottom: 4px solid #3b82f6;
+}
+
+/* Flexbox макет для контейнера */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Селектор класу */
+.card {
+  background: #ffffff;
+  flex: 1;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+  color: #0f172a;
+}
+
+/* Селектор атрибута */
+input[type="email"] {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+/* Псевдоклас :focus */
+input[type="email"]:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+}
+
+.btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Псевдоклас :hover */
+.btn:hover {
+  background-color: #2563eb;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+/* Медіазапит для адаптації під вузькі екрани */
+@media (max-width: 640px) {
+  .container {
+    flex-direction: column;
+  }
+}

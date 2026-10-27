@@ -1,21 +1,17 @@
 import Header from './components/Header';
 import About from './components/About';
-import Skills from './components/Skills';
 import Experience from './components/Experience';
-import './App.css';
+import Skills from './components/Skills';
 
 function App() {
   return (
-    <div className="app-container">
-      <Header />
-      <main>
+    <div className="min-h-screen bg-slate-100 py-10 px-4">
+      <div className="max-w-3xl mx-auto space-y-6">
+        <Header />
         <About />
-        <Skills />
         <Experience />
-      </main>
-      <footer className="footer">
-        <p>© 2026 CV Project. Створено на React & Vite.</p>
-      </footer>
+        <Skills />
+      </div>
     </div>
   );
 }
