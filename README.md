@@ -16,3 +16,17 @@
 - Vite
 - HTML5 / CSS3
 - Git & GitHub
+# Лабораторна робота №3: Робота з CSS та Tailwind CSS
+
+**Виконала:** Mysko Anastasiia  
+**Тема:** Робота з CSS (Вступ до CSS, Flexbox, Tailwind CSS в React)
+
+## Опис проєкту
+В рамках даної лабораторної роботи було виконано:
+- **Частина 1:** Створено файл `styles.css` з різними типами селекторів (теги, класи, ID, атрибути, псевдокласи), явним керуванням Box Model, Flexbox-макетом та адаптивним медіазапитом (`@media`).
+- **Частина 2:** Налаштовано Tailwind CSS v4 у середовищі React (Vite) та застилізовано компоненти резюме (`Header`, `About`, `Experience`, `Skills`, `App`).
+
+## Запуск проєкту
+```bash
+npm install
+npm run dev
